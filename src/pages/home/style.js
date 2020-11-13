@@ -157,3 +157,19 @@ export const MoreWriter = styled.div`
     font-weight: bold;
   }
 `
+
+export const BackTop = styled.div`
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 30px;
+  bottom: 60px;
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+`

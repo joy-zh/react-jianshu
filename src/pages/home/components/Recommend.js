@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { PureComponent } from 'react'
 import {
   RecommendWrapper
 } from '../style'
@@ -8,7 +8,7 @@ import Banner2 from '../../../statics/img/recommend/banner-2.png'
 import Banner3 from '../../../statics/img/recommend/banner-3.png'
 import Banner4 from '../../../statics/img/recommend/banner-4.png'
 
-class Recommend extends Component {
+class Recommend extends PureComponent {
   render() {
     return (
       <RecommendWrapper>

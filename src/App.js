@@ -9,8 +9,8 @@ import store from './store'
 function App() {
   return (
     <Provider store={store}>
-      <Header />
       <BrowserRouter>
+        <Header />
         <Route component={Home} exact path="/"></Route>
         <Route component={Detail} exact path="/detail"></Route>
       </BrowserRouter>
