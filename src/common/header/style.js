@@ -5,6 +5,7 @@ export const HeaderWrapper = styled.div`
   position: relative;
   height: 56px;
   border-bottom: 1px solid #f0f0f0;
+  z-index: 2;
 `
 
 export const HeaderContent = styled.div`
@@ -13,15 +14,16 @@ export const HeaderContent = styled.div`
   left: 0;
   right: 0;
   top: 0;
-  overflow: hidden;
+  /* overflow: hidden; */
   background-color: #fff;
   box-shadow: 0 2px 10px rgba(0,0,0,.05);
-  z-index: 100;
+  z-index: 1;
 `
 export const HeaderHeight = styled.div`
   position: relative;
   height: 56px;
   display: block;
+  z-index: 0;
 `
 
 export const Logo = styled.div`
@@ -124,7 +126,7 @@ export const SearchInfo = styled.div`
   width: 240px;
   padding: 0 20px;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
-  z-index: 100;
+  z-index: 1000;
   background: #fff;
 `
 

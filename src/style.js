@@ -15,6 +15,7 @@ export const GlobalStyle = createGlobalStyle`
   }
   body {
     line-height: 1.5;
+    color: #404040;
   }
   ol, ul {
     list-style: none;

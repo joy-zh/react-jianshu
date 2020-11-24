@@ -19,7 +19,7 @@ class List extends PureComponent {
             return (
               <ListItem key={index}>
                 <ListInfo>
-                  <Link className="title" key={index} to="/detail">{item.get('title')}</Link>
+                  <Link className="title" to={'/detail/' + item.get('id')}>{item.get('title')}</Link>
                   <p className="desc">{item.get('desc')}</p>
                   <ItemOperator>
                     <span className="diamond">
